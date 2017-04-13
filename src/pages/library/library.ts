@@ -12,7 +12,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-library',
   templateUrl: 'library.html',
 })
-export class Library {
+export class LibraryPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

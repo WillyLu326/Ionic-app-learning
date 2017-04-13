@@ -12,7 +12,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-quote',
   templateUrl: 'quote.html',
 })
-export class Quote {
+export class QuotePage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }

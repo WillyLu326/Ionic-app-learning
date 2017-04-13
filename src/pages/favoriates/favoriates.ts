@@ -12,7 +12,7 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   selector: 'page-favoriates',
   templateUrl: 'favoriates.html',
 })
-export class Favoriates {
+export class FavoriatesPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
