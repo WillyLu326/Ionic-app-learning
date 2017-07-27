@@ -5,12 +5,12 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
-import { FavoriatesPage } from '../pages/favoriates/favoriates';
+import { HomePage } from '../pages/home/home';
 
 @NgModule({
   declarations: [
     MyApp,
-    FavoriatesPage
+    HomePage
   ],
   imports: [
     BrowserModule,
@@ -19,7 +19,7 @@ import { FavoriatesPage } from '../pages/favoriates/favoriates';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    FavoriatesPage
+    HomePage
   ],
   providers: [
     StatusBar,
